@@ -202,11 +202,46 @@ body{
 	margin-top: 10px;
 }
 
-@media only screen and (max-width:768px){
+@media only screen and (max-width:992px){
+	
+	body{
+	    height: 100vh;
+	}
+
+}	
+	
+@media only screen and (max-width:767px){
+	
 	.col{	
 		height: 80px;
 	}	
+	
 	.row-div{
 		height: initial;
 	} 
+	#game-wrap{
+		float: none;
+		margin: 0 auto;
+		margin-top: 50px;
+		min-width:auto;
+	}
+	
+	#panel{
+		float: none;
+		display: table;
+		margin: 0 auto;
+		min-width:auto;
+	}
+	
+	.message.active {
+		top: 7px;
+		margin: 0;
+		font-size: 1em;
+		left: 13px;
+	}
+	
+	.col span {
+		font-size: 4em;
+	} 
+	
 }
